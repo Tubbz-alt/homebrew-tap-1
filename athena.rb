@@ -6,6 +6,6 @@ class Athena < Formula
   sha256 "b5087752d1ea614d1155ba00ab64d61ca865032ac0a3a2f56cd280f2e824867f"
 
   def install
-	  bin.install Dir["*"]
+	  bin.install "athena"
   end
 end
