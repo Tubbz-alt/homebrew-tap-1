@@ -1,9 +1,9 @@
 class PluginProxy < Formula
   desc "Plugin to handle browser automation using Selenium."
   homepage "https://github.com/athena-oss/plugin-proxy"
-  url "https://github.com/athena-oss/plugin-proxy/archive/v0.3.0.tar.gz"
-  version "0.3.0"
-  sha256 "e43b863e1bc0ca200ae15e7604c060278233469328bc9ae08617a535716ffd22"
+  url "https://github.com/athena-oss/plugin-proxy/archive/v0.3.1.tar.gz"
+  version "0.3.1"
+  sha256 "246973ee4b523da534d3f0e81246ab9d4e62c9cbaacd6a86338875c88c620bbb"
 
   depends_on "athena"
 
