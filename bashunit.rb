@@ -3,7 +3,7 @@ class Bashunit < Formula
   homepage "https://github.com/athena-oss/bashunit"
   url "https://github.com/athena-oss/bashunit/archive/v0.3.0.tar.gz"
   version "0.3.0"
-  sha256 "eadc6b01453669b28ff1cc6a41ee0b8c77833fec40895f9bd8eb335d872506c8"
+  sha256 "13b0fd95f5a043e3067ee6a14c9cef4874c9ec1001e6d7b19b0202366513556d"
 
   def install
 	  bin.install Dir["*"]
