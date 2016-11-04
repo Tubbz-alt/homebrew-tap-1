@@ -1,4 +1,4 @@
-class Athena < Formula
+class Bashunit < Formula
   desc "A Testing Framework for Bash"
   homepage "https://github.com/athena-oss/bashunit"
   url "https://github.com/athena-oss/bashunit/archive/v0.3.0.tar.gz"
