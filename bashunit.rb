@@ -7,5 +7,6 @@ class Bashunit < Formula
 
   def install
 	  bin.install Dir["*"]
+	  bin.install Dir[".logo"]
   end
 end
