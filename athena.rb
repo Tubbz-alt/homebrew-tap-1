@@ -9,4 +9,8 @@ class Athena < Formula
 	  prefix.install Dir["*"]
 	  bin.install_symlink "#{prefix}/#{name}"
   end
+
+  def post_install
+	system "brew postinstall $(#{HOMEBREW_PREFIX}/bin/brew uses --installed athena)"
+  end
 end
