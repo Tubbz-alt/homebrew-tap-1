@@ -9,9 +9,6 @@ class PluginSelenium < Formula
 
   def install
         prefix.install Dir["*"]
-  end
-
-  def post_install
-        system "ln -s #{prefix} $(#{HOMEBREW_PREFIX}/bin/brew --prefix athena)/bin/plugins/selenium"
+        system "ln -s #{prefix} $(#{HOMEBREW_PREFIX}/bin/brew --prefix athena)/plugins/selenium"
   end
 end

@@ -9,9 +9,6 @@ class PluginProxy < Formula
 
   def install
         prefix.install Dir["*"]
-  end
-
-  def post_install
-        system "ln -s #{prefix} $(#{HOMEBREW_PREFIX}/bin/brew --prefix athena)/bin/plugins/proxy"
+        system "ln -s #{prefix} $(#{HOMEBREW_PREFIX}/bin/brew --prefix athena)/plugins/proxy"
   end
 end

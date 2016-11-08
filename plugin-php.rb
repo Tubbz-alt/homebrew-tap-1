@@ -9,9 +9,6 @@ class PluginPhp < Formula
 
   def install
         prefix.install Dir["*"]
-  end
-
-  def post_install
-        system "ln -s #{prefix} $(#{HOMEBREW_PREFIX}/bin/brew --prefix athena)/bin/plugins/php"
+        system "ln -s #{prefix} $(#{HOMEBREW_PREFIX}/bin/brew --prefix athena)/plugins/php"
   end
 end
