@@ -5,8 +5,9 @@ class Bashog < Formula
   version "0.3.0"
   sha256 "5e658e6a0980e652e56b8fd54e799a6466dedd0b01bcfeccfb00e442e4f6e37a"
 
-  def install
-	  bin.install Dir["*"]
-	  bin.install Dir[".logo"]
-  end
+   def install
+	  prefix.install Dir["*"]
+	  prefix.install Dir[".logo"]
+	  bin.install_symlink "#{prefix}/#{name}"
+   end
 end

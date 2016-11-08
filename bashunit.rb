@@ -6,7 +6,8 @@ class Bashunit < Formula
   sha256 "13b0fd95f5a043e3067ee6a14c9cef4874c9ec1001e6d7b19b0202366513556d"
 
   def install
-	  bin.install Dir["*"]
-	  bin.install Dir[".logo"]
+	  prefix.install Dir["*"]
+	  prefix.install Dir[".logo"]
+	  bin.install_symlink "#{prefix}/#{name}"
   end
 end
