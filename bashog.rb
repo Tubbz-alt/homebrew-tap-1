@@ -1,9 +1,9 @@
 class Bashog < Formula
   desc "A Dependency Manager for Bash"
   homepage "https://github.com/athena-oss/bashog"
-  url "https://github.com/athena-oss/bashog/archive/v0.3.0.tar.gz"
-  version "0.3.0"
-  sha256 "5e658e6a0980e652e56b8fd54e799a6466dedd0b01bcfeccfb00e442e4f6e37a"
+  url "https://github.com/athena-oss/bashog/archive/v0.3.1.tar.gz"
+  version "0.3.1"
+  sha256 "3efff784e4198a58ca5426a79351414a9b59d2479851e577da64c50b68c619ea"
 
    def install
 	  prefix.install Dir["*"]
