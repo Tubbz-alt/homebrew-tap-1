@@ -3,7 +3,7 @@ class Bashog < Formula
   homepage "https://github.com/athena-oss/bashog"
   url "https://github.com/athena-oss/bashog/archive/v0.3.1.tar.gz"
   version "0.3.1"
-  sha256 "3efff784e4198a58ca5426a79351414a9b59d2479851e577da64c50b68c619ea"
+  sha256 "bb07a60a7bbabf444503e789ca870a672340bc1d6db9468df66117dd6e400feb"
 
    def install
 	  prefix.install Dir["*"]
