@@ -1,9 +1,9 @@
 class Bashunit < Formula
   desc "A Testing Framework for Bash"
   homepage "https://github.com/athena-oss/bashunit"
-  url "https://github.com/athena-oss/bashunit/archive/v0.3.1.tar.gz"
-  version "0.3.1"
-  sha256 "d44c95d8ff773fb3ff35d5ea937b87407e80c4a43acd9d6045d7965bf39474df"
+  url "https://github.com/athena-oss/bashunit/archive/v0.3.2.tar.gz"
+  version "0.3.2"
+  sha256 "d114038f6a89d966bf4e24db423b509399594d0c0a5407f1c74082db306d124c"
 
   def install
 	  prefix.install Dir["*"]
