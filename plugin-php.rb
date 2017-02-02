@@ -3,7 +3,7 @@ class PluginPhp < Formula
   homepage "https://github.com/athena-oss/plugin-php"
   url "https://github.com/athena-oss/plugin-php/archive/v0.7.4.tar.gz"
   version "0.7.4"
-  sha256 "7d23c096959fae9d5703700fb8a142d9b5824d684b004dd0f8b92d792c873f0d"
+  sha256 "77b53b7bc55915472eb277d14e139f705b81268446e542580f0b1e3657dff62b"
 
   depends_on "athena"
 
