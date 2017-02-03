@@ -4,6 +4,7 @@ class PluginGradle < Formula
   url "https://github.com/athena-oss/plugin-gradle/archive/v0.3.0.tar.gz"
   version "0.3.0"
   sha256 "e8fb3866e8a0f06d0807be01752d87a082fc8adde411e634fb86f5b8e1d8d3bb"
+  keg_only "Not meant for standalone usage - this is an Athena plugin"
 
   depends_on "athena"
 
